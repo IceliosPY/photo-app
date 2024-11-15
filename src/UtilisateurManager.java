@@ -12,7 +12,6 @@ public class UtilisateurManager {
             baseUtilisateurs = (Map<String, String>) in.readObject();
             imagesDeProfil = (Map<String, String>) in.readObject();
         } catch (IOException | ClassNotFoundException e) {
-            // Le fichier peut ne pas exister initialement, ignorer l'exception
         }
     }
 
